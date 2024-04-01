@@ -1,8 +1,2 @@
-class Employee{
-	//save this class name as file name also
-	public static void main(String args[]){		//args -variable name-is it mandate??
-		// to give clarity on the flow of program		
-		System.out.println("hello world"); //print and got to next line
-		System.out.print("hello1");
-		System.out.print("hello2");
+
          
