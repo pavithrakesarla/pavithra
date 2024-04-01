@@ -1,2 +1,34 @@
+class a
+{ 
+         public static void main(string[] args)
+         {
+                 system.out.println("hello world");
+         }
+}
+----------------------------------------------------------------------
 
-         
+class a
+{
+         public static void main()
+         { 
+                system.out.println("hello world");
+         }
+}
+----------------------------------------------------------------------
+
+class a
+{
+          static public void main(string[] args)
+          {
+                  system.out.println("hello world");
+          }
+}
+----------------------------------------------------------------------
+
+class a 
+{
+          public static main(string[] args)
+          {
+                 system.out.println('hello world");
+         }
+}
