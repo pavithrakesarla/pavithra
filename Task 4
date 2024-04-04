@@ -1,0 +1,31 @@
+------------Nested if statement-------
+        A Nested if statement is an if statement that is placed inside another if statement.
+        This allows for multiple conditions to be evaluated sequentially ,providing more complex decision making capabilites.
+
+
+---------------When for loop becomes infinite------------- 
+   
+  An infinite for loop has no termination condition, causing it to iterate indefinitely. 
+  This can happen if the termination condition is missing or if the loop's increment/decrement logic prevents the condition from being false.
+
+Example:-
+
+class InfiniteForLoop
+{
+public static void main (String args[]){
+                for(int i=10; i>0; i++){
+                System.out.println("java")
+    }
+ }
+} 
+----output----
+java 
+java
+java
+.
+.
+.
+
+
+--------------finding prime number upto n----------------
+
