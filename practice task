@@ -56,4 +56,48 @@ public static void main(String[] args) {
  -------OUTPUT-------
 
  minor
+
+
+----------------------------------------------------------------------------
+package in.eg.java.demo;
+
+public class Bank {
+    private int bankId;
+    private String bankName;
+    private String ifscCode;
+    private String branchName; 
+
+    public int getBankId() {
+        return bankId;
+    }
+
+    public String getBankName() {
+        return bankName;
+    }
+
+    public String getIfscCode() {
+        return ifscCode;
+    }
+
+    public String getBranchName() {
+        return branchName;
+    }
+
+
+    public void setBankId(int newBankId) {
+        bankId = newBankId;
+    }
+
+    public void setBankName(String newBankName) {
+        bankName = newBankName;
+    }
+
+    public void setIfscCode(String newIfscCode) {
+        ifscCode = newIfscCode;
+    }
+
+    public void setBranchName(String newBranchName) {
+        branchName = newBranchName;
+    }
+}
  
