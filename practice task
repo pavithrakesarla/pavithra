@@ -1,0 +1,59 @@
+Class Loop
+{
+  public static void main(String args[]){
+      int j=11;
+    for(;j>10;j++)
+     {
+       System.out.println("infinite"+j);
+     }
+}
+}
+
+
+------output-----
+
+infinite6
+infinite7
+infinite8
+infinite9
+infinite10
+infinite11
+infinite12
+infinite13
+infinite14
+infinite15
+infinite16
+infinite17
+infinite18
+infinite19
+infinite20
+infinite21
+infinite22
+infinite23
+infinite24
+infinite25
+------
+------
+ -----------------------------------------------------------------
+Class NestedIf
+{
+public static void main(String[] args) {
+    int age = 16;
+    boolean isEligible = false;
+   if (age >= 18) {
+        System.out.println("You are Adult");
+        if (isEligible) {
+            System.out.println("Eligible");
+        } else {
+            System.out.println("not Eligible");
+        }
+    } else {
+        System.out.println("minor.");
+    }
+}
+}
+
+ -------OUTPUT-------
+
+ minor
+ 
