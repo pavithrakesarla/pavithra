@@ -1,0 +1,36 @@
+Task 4
+--------------------------------------------------------------------------------------------
+////class emp, in main meth - if a craete 5 obj - it should print 5 as o/p
+//if u creat 3 obj - it  should print 3 obj
+
+program 
+----------------------------------------------------------------------------------------------
+class emp {
+    private static int count = 0; // static variable to count the number of objects
+
+    public emp() {
+        count++; // increment count every time a new object is created
+    }
+
+    // static method to get the count of objects created
+    public static int getCount() {
+        return count;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        // Creating 5 emp objects
+        emp obj1 = new emp();
+        emp obj2 = new emp();
+        emp obj3 = new emp();
+        emp obj4 = new emp();
+        emp obj5 = new emp();
+
+        // Printing the count of objects created
+        System.out.println("Number of emp objects created: " + emp.getCount());
+    }
+}
+ Output :
+----------------------------------------------
+  5
