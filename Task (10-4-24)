@@ -1,0 +1,98 @@
+Inheritance
+----------------------------------------
+
+Task1:what if my child class has lesser access modifier? // private void walk()
+
+Here...if we define method as public access modifier in parent class(super class) and child class defined with private access modifier.
+
+*It will geanrate a compile-time error...Because methods declared public in a superclass also must be public in all subclasses.
+
+*For example if declared Methods as protected in a superclass must either be protected or public in subclasses; they cannot be private.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Calc, scientific calc, programmer calc - implement complete inheritance(overriding,uniq methd...)
+
+Calculators (Parent or Super Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+
+Standard   (Child or Sub Class)
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Percentage() {}  //Unique Method
+
+Scientific (Child Class)
+
+     Addition() {} 
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Trigonometry() {} //Unique Method
+     Mode() {} //Unique Method
+
+programmer  (Child Class)
+
+     Addition() {}
+     Substraction() {}
+     Multification() {}
+     Division() {}
+     Bitwise() {} //Unique Method
+     Bitshift() {} //Unique Method
+
+3. Radio, Tv, Dvd Player - identify the Apt parent class and implement inheritance
+
+Electronic Broadcast (Parent class)
+
+    Audio() {}
+    Play() {}
+    Stop() {}
+
+Radio (Child class)
+    
+    Audio() {}
+    Recording() {}
+    Play() {}
+    Stop() {}
+    Audio_disc() {} // unique method
+
+TV  (Child class)
+    Audio() {}
+    Play() {}
+    Stop() {}
+    Video() {} // unique method
+    Video_Recording() {} //unique method
+
+DVD Player (Child class)
+    
+    Audio() {}
+    Play() {}
+    Stop() {}
+    Video_Disc() {} // unique method
+    Mic() {} //Unique method
+
+4. Admin, Manager, Finance - idetify the parent class and implement inheritance
+
+Department (Parent class)
+     login() {}
+     logout() {}  
+     campany() {}
+
+Manager  (child class)
+     login() {} 
+     logout() {} 
+     campany() {}
+     employee_Data() {} // Unique method
+     
+Finance  (child class)
+
+     login() {}
+     logout() {}
+     campany() {}
+     accounts() {}    // unique method
+     salary() {}      // unique method
